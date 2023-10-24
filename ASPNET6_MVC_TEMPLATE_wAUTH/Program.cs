@@ -2,6 +2,8 @@ using ASPNET6_MVC_TEMPLATE_wAUTH.Data;
 using ASPNET6_MVC_TEMPLATE_wAUTH.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using ASPNET6_MVC_TEMPLATE_wAUTH.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
