@@ -21,6 +21,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
     .AddDefaultTokenProviders();
 
 builder.Services.AddRazorPages();
+builder.Services.AddScoped<IEmailSender, EmailSender>();
 
 var app = builder.Build();
 
